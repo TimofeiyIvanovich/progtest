@@ -4,6 +4,7 @@ int main()
   float x, y;
   scanf("%f", &x);
   y=pow(x,2)+3;
+  y=y*2;
   printf("otvet %f\n", y);
   
   return(0);
